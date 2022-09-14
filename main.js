@@ -1,10 +1,10 @@
 addEventListener("DOMContentLoaded", ()=>{
     //datos de entrada
-    //cuanto cobra por trabajos
-    let m=Number(prompt("introduzca la cantidad de metros cuadros"))
-    let por1=15800
-    //procesos u operaciones 
-    let pre=(por1*m)
+    //edad de las personas
+    let en=Number(prompt("ingrese año atual"))
+    let no=Number(prompt("ingrese año de nacimiento"))
+    //procesos u operaciones
+    let ac=(en-no)
     //salida o entrega de resultados
-    console.log("precio total:",pre)
+    console.log("edad:",ac)
 })
