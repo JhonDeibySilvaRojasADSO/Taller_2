@@ -1,12 +1,10 @@
 addEventListener("DOMContentLoaded", ()=>{
     //datos de entrada
-    //cantidad de tapas
-    let tap=25000
+    //cuanto cobra por trabajos
+    let m=Number(prompt("introduzca la cantidad de metros cuadros"))
+    let por1=15800
     //procesos u operaciones 
-    let m=(2/3)*tap
-    let j=(1/4)*tap
-    let sum=(m+j)
-    let l=(tap-sum)
+    let pre=(por1*m)
     //salida o entrega de resultados
-    console.log("cantidad de tapas corrspondientes a lorena:",l)
+    console.log("precio total:",pre)
 })
