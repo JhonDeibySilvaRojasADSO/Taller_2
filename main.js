@@ -1,9 +1,10 @@
 addEventListener("DOMContentLoaded", ()=>{
-    //datos de entrada 
-    //cantidad de gramos 
-    let har=100
-    //procesoso u operaciones
-    let gram=(2*100)
+    //datos de entrada
+    //cuantos kg transporta
+    let caj=25
+    let pes1=748
+    //precesos u operaciones 
+    let trans=(pes1*caj)
     //salida o entrega de resultados 
-    console.log("gramos de harina necesarios:",gram)
+    console.log("cuantos kg transporta en total:",trans)
 })
